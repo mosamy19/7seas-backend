@@ -1,0 +1,31 @@
+{"_id":{"$oid":"5c92a3f825c27735ac846213"},"name":"BST (EFA, FPFF, PST & PSSR)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a40b25c27735ac846214"},"name":"Deck/Engine watchkeeping certificate","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a41725c27735ac846215"},"name":"Able Seafarer \"Deck/Engine\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a42825c27735ac846216"},"name":"Life Boat Man","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a42e25c27735ac846217"},"name":"FRC","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a43725c27735ac846218"},"name":"Prevention and combating of marine pollution","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a44225c27735ac846219"},"name":"AFF (Advance Fire Fighting)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a44a25c27735ac84621a"},"name":"PSCRB (Survival Craft)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a45325c27735ac84621b"},"name":"MFA (Medical First Aid)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a45b25c27735ac84621c"},"name":"MECA (Medical Care)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a46125c27735ac84621d"},"name":"GMDSS and General Operator Cert","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a46a25c27735ac84621e"},"name":"Medical Care Sudies","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a47325c27735ac84621f"},"name":"Practical Ability to Prepare Meals \"Cook\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a495e77ae91af417104a"},"name":"Personal Hygine and Environmental Protection \"Cook\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4a1e77ae91af417104b"},"name":"Food Storage and Inventory Controls \"Cook\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4a9e77ae91af417104c"},"name":"Savety and Health in Provision of Meals \"Cook\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4b1e77ae91af417104d"},"name":"Food Handling Medical Cert. \"Cook\"","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4b8e77ae91af417104e"},"name":"Communication","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4c0e77ae91af417104f"},"name":"ECDIS Simulator (Operational Level)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4c7e77ae91af4171050"},"name":"ECDIS Simulator (Management Level)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4cde77ae91af4171051"},"name":"SAT (Security Awareness)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4d3e77ae91af4171052"},"name":"ECDIS","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4dae77ae91af4171053"},"name":"Bridge Resource Management","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4e1e77ae91af4171054"},"name":"Engine Room Resource Management","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4e9e77ae91af4171055"},"name":"Leadership Management","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4f4e77ae91af4171056"},"name":"Radar and ARPA Simulator and search & rescue","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a4fee77ae91af4171057"},"name":"Marine radar and automatic radar plotting aids","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a50ae77ae91af4171058"},"name":"SSO (Ship Security Officer)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a514e77ae91af4171059"},"name":"SaSO (Ship Safety Officer)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a51be77ae91af417105a"},"name":"FRB (Fast Rescue Boat)","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a523e77ae91af417105b"},"name":"AHTS Simulator","__v":{"$numberInt":"0"}}

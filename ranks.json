@@ -1,0 +1,15 @@
+{"_id":{"$oid":"5c92a0cab7bbd4381408cb9e"},"name":"Master","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a0dbb7bbd4381408cb9f"},"name":"Chief officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a0e9b7bbd4381408cba0"},"name":"Second officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a0f1b7bbd4381408cba1"},"name":"Third officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a106b7bbd4381408cba2"},"name":"Fourth officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a115b7bbd4381408cba3"},"name":"Deck cadet","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a120b7bbd4381408cba4"},"name":"Radio officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a12db7bbd4381408cba5"},"name":"Chief engineer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a136b7bbd4381408cba6"},"name":"Second engineer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a13fb7bbd4381408cba8"},"name":"Third engineer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a147b7bbd4381408cbaa"},"name":"Fourth engineer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a151b7bbd4381408cbab"},"name":"Engine cadet","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a15ab7bbd4381408cbac"},"name":"Electro-Technical officer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a164b7bbd4381408cbad"},"name":"Electric engineer","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c92a16bb7bbd4381408cbae"},"name":"Bosun","__v":{"$numberInt":"0"}}
