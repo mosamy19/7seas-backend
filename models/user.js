@@ -36,11 +36,18 @@ const userSchema = new mongoose.Schema({
     lowercase: true,
     trim: true,
     default: "sailor"
+  },
+  resetPasswordToken: {
+    type: String
+  },
+  resetPasswordExpires: {
+    type: Date
   }
 });
 
 userSchema.methods.generateAuthToken = function() {
   const token = jwt.sign({ _id: this._id, role: this.role }, "jwtPrivateKey"); // config.get("jwtPrivateKey")
+  console.log(token);
   return token;
 };
 

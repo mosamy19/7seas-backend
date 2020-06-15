@@ -37,6 +37,9 @@ const NationalSeamanBookSchema = new Schema({
   placeOfIssue: {
     type: String
   },
+  rank: {
+    type: String
+  },
   dateOfIssue: {
     type: Date
   },
@@ -102,6 +105,9 @@ const approvedMarlinsTestSchema = new Schema({
   },
   Result: {
     type: Number
+  },
+  dateOfIssue: {
+    type: Date
   }
 });
 
@@ -117,11 +123,17 @@ const certificateSchema = new Schema({
   },
   dateOfExpiry: {
     type: Date
+  },
+  countryOfIssuing: {
+    type: String
   }
 });
 
 const DPcertificateSchema = new Schema({
   CertType: {
+    type: String
+  },
+  DPType: {
     type: String
   },
   CerteNo: {
@@ -141,6 +153,9 @@ const FlagEndorsementSchema = new Schema({
   },
   dateOfExpiry: {
     type: Date
+  },
+  flagCountry: {
+    type: String
   }
 });
 
@@ -150,6 +165,9 @@ const FlagSeamanBookSchema = new Schema({
   },
   dateOfExpiry: {
     type: Date
+  },
+  flagCountry: {
+    type: String
   }
 });
 
@@ -172,23 +190,52 @@ const WorkExperienceSchema = new Schema({
   periodOfServiceTo: {
     type: Date
   },
-  areaWorked: {
-    type: Boolean
+  field: {
+    type: String
+  },
+  charter: {
+    type: String
   },
   deckEngine: {
     type: Boolean
   },
   GRT: {
-    type: Boolean
+    type: String
+  },
+  BHP: {
+    type: String
   },
   engineType: {
     type: String
   },
-  offshoreVessel: {
+  propulsionType: {
     type: String
   }
 });
 
+const NextOfKinSchema = new mongoose.Schema({
+  name: {
+    type: String
+  },
+  relation: {
+    type: String
+  },
+  mobile: {
+    type: String
+  }
+});
+
+const contactTelephoneSchema = new mongoose.Schema({
+  landLine: {
+    type: Number
+  },
+  mobile: {
+    type: Number
+  },
+  mobile2: {
+    type: Number
+  }
+});
 const profileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -196,13 +243,12 @@ const profileSchema = new mongoose.Schema({
   },
   designation: {
     type: String,
-    required: true,
     minlength: 2,
     maxlength: 50
   },
 
   acceptToActInLowRank: {
-    type: String
+    type: Boolean
   },
   dateOfBirth: {
     type: Date
@@ -235,15 +281,11 @@ const profileSchema = new mongoose.Schema({
   nearestRegionalAirport: {
     type: String
   },
-  contactTelephone: {
-    type: Number
-  },
+  contactTelephone: contactTelephoneSchema,
   permanentAddress: {
     type: String
   },
-  NextOfKin: {
-    type: String
-  },
+  NextOfKin: NextOfKinSchema,
   martialStatus: {
     type: String
   },
